@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "photosFirebase",
+      "public": "dist/photosFirebase",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
